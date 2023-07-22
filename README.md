@@ -16,7 +16,7 @@ windows、mac共に動作するアラーム・目覚ましアプリです。<br>
 [![My Skills](https://skillicons.dev/icons?i=vscode,py)](https://skillicons.dev)
 ### 注意事項
 事前にpygameをインストールする必要があります。インストール方法は以下の通りです。<br>
-```
+```Shell
 pip install pygame
 ```
 <br>
