@@ -24,5 +24,5 @@ alarm_clock.pyの79行目の''の中はご自身の再生したいwavファイ�
 変更しない場合、プログラムは正しく動作しません。<br>
 ```Python
 import pygame
-pygame.mixer.music.load('C:\\python\\Sound\\Clock-Alarm03-01(Mid-Loop).wav')//wavファイルのパスを指定してください。
+pygame.mixer.music.load('C:\\python\\Sound\\Clock-Alarm03-01(Mid-Loop).wav')
 ```
