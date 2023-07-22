@@ -20,8 +20,9 @@ windows、mac共に動作するアラーム・目覚ましアプリです。<br>
 pip install pygame
 ```
 <br>
-alarm_clock.pyの79行目の""の中はご自身の再生したいwavファイルのパスに変更してからご使用ください。<br>
+alarm_clock.pyの79行目の''の中はご自身の再生したいwavファイルのパスに変更してからご使用ください。<br>
 変更しない場合、プログラムは正しく動作しません。<br>
 ```Python
+import pygame
 pygame.mixer.music.load('C:\\python\\Sound\\Clock-Alarm03-01(Mid-Loop).wav')//wavファイルのパスを指定してください。
 ```
